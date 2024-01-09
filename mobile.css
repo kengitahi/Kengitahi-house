@@ -57,7 +57,8 @@
     text-align: center;
   }
 
-  .footer {
+  .footer,
+  .steps-cards {
     grid-template-columns: 1fr 1fr;
   }
 }
@@ -97,10 +98,9 @@
     text-align: center;
   }
 
-  .service-cards {
-    grid-template-columns: 1fr;
-  }
-  .footer {
+  .service-cards,
+  .footer,
+  .steps-cards {
     grid-template-columns: 1fr;
   }
 }
