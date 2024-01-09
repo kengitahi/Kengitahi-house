@@ -10,10 +10,6 @@
     gap: 30px;
   }
 
-  .testimonial {
-    margin-right: 0px;
-  }
-
   .showcase img {
     border: none;
     gap: 15px;
@@ -21,16 +17,44 @@
   }
 
   .why-us,
-  .home-blog .articles {
+  .home-blog .articles,
+  .testimonials-container {
     grid-template-columns: 1fr;
+  }
+
+  .appt-gallery > .col {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+
+  .appt-card {
+    height: 20rem;
+  }
+
+  .appt-details {
+    opacity: 100%;
+  }
+
+  .testimonial {
+    margin-right: 0px;
+  }
+
+  .testimonial-video img,
+  .testimonial-grid {
+    border-radius: 30px;
+  }
+
+  .testimonials-container {
+    gap: 30px;
+  }
+
+  .home-blog article .article-details {
+    align-items: center;
+    align-self: center;
   }
 
   .home-blog .articles {
     text-align: center;
-  }
-
-  .testimonials-container {
-    grid-template-columns: 1fr;
   }
 
   .footer {
@@ -50,9 +74,9 @@
   .hero-details,
   .grid-half,
   .showcase,
-  .why-us {
+  .why-us,
+  .testimonial-grid {
     grid-template-columns: 1fr;
-    grid-row: initial;
   }
 
   .hero-buttons {
