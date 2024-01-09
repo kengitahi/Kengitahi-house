@@ -1,0 +1,85 @@
+@media (max-width: 960px) {
+  .showcase {
+    grid-template-columns: 1fr 1fr;
+    gap: 30px;
+  }
+
+  .about .left-half {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+  }
+
+  .testimonial {
+    margin-right: 0px;
+  }
+
+  .showcase img {
+    border: none;
+    gap: 15px;
+    margin: 0;
+  }
+
+  .why-us,
+  .home-blog .articles {
+    grid-template-columns: 1fr;
+  }
+
+  .home-blog .articles {
+    text-align: center;
+  }
+
+  .testimonials-container {
+    grid-template-columns: 1fr;
+  }
+
+  .footer {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+@media (max-width: 768px) {
+  .main-nav-links {
+    display: none; //causing overflow issues, will malke responsive
+  }
+
+  .hero {
+    text-align: center;
+  }
+
+  .hero-details,
+  .grid-half,
+  .showcase,
+  .why-us {
+    grid-template-columns: 1fr;
+    grid-row: initial;
+  }
+
+  .hero-buttons {
+    justify-content: center;
+  }
+
+  .hero-video {
+    margin-top: 60px;
+  }
+
+  .counter-stats {
+    grid-template-columns: repeat(2, minmax(0px, 1fr));
+    gap: 2em;
+  }
+
+  .section-intro {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .service-cards {
+    grid-template-columns: 1fr;
+  }
+  .footer {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 568px) {
+}
